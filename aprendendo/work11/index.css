@@ -1,0 +1,85 @@
+
+html{
+    height: 500vh;
+    background-color: black;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.conteiner{
+    max-width: 1280px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 1;
+    left: 0;
+    transition: .5s;
+
+}
+
+header.rolagem{
+    background-color: white;
+    padding: 20px 2%;
+}
+header.rolgem a{
+    color: violet;
+}
+
+
+
+
+
+.banner{
+    height:100vh;
+    background-image: url(futuro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+    
+    text-decoration: none;
+
+}
+
+    
+.banner h1{
+    font-size: 3em;
+}
+
+
+ .banner h1 span{
+
+    color:violet
+}
+
